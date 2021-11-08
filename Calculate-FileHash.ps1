@@ -2,15 +2,8 @@ param(
     [Parameter(Mandatory=$true)][string]$Path,
     [Parameter(Mandatory=$false)]
     [ValidateSet("SHA1","SHA256","SHA384","SHA512","MD5")]
-    [string]$Algorithm,
-    [Parameter(Mandatory=$false)][switch]$help
+    [string]$Algorithm
 )
-
-if ($help) {
-    Write-Host "Generates hash."
-    Write-Host "Usage: $($MyInvocation.MyCommand) <path>"
-    return
-}
 
 if (!$Algorithm) {
     $hash = @()
@@ -37,5 +30,4 @@ if ($value -eq $hash.Hash) {
 } else {
     Write-Host "NOT EQUAL" -ForegroundColor Red
 }
-
 Pause
