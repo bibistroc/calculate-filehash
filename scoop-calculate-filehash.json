@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+    "url": [
+        "https://raw.githubusercontent.com/bibistroc/hashing/v1.0/Calculate-FileHash.ps1",
+        "https://raw.githubusercontent.com/bibistroc/hashing/v1.0/install.ps1",
+        "https://raw.githubusercontent.com/bibistroc/hashing/v1.0/install-context-menu.reg"
+    ],
+    "hash": [
+        "416c6173e36db673bc65b83641c060ca5384aaf9203cec69a5ed1a40a31a07e5",
+        "846bf2d8bfe422e49fb25e486ebe2133e1a00c44cb878a3dd565098ea877aecc",
+        "824f0b669d63054a2893020decd86d852b6f079904e760b9bc1372dff00f6691"
+    ],
+    "post_install": [
+        "if (Test-Path \"$dir\\install-context-menu.reg\") {",
+        " . \"$dir\\install.ps1\"",
+        "}"
+    ],
+    "notes": "Add Calculate-FileHash as a context menu option by running: \"$dir\\install-context-menu.reg\"",
+    "extract_dir": "calculate-filehash",
+    "bin": "Calculate-FileHash.ps1"
+}
