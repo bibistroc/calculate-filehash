@@ -6,4 +6,4 @@
 
 ## Install
 
-`scoop install https://raw.githubusercontent.com/bibistroc/hashing/main/calculate-filehash.json`
+`scoop install https://raw.githubusercontent.com/bibistroc/calculate-filehash/main/calculate-filehash.json`

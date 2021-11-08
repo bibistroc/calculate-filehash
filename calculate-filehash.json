@@ -1,9 +1,9 @@
 {
     "version": "1.0",
     "url": [
-        "https://raw.githubusercontent.com/bibistroc/hashing/v1.0/Calculate-FileHash.ps1",
-        "https://raw.githubusercontent.com/bibistroc/hashing/v1.0/install.ps1",
-        "https://raw.githubusercontent.com/bibistroc/hashing/v1.0/install-context-menu.reg"
+        "https://raw.githubusercontent.com/bibistroc/calculate-filehash/v1.0/Calculate-FileHash.ps1",
+        "https://raw.githubusercontent.com/bibistroc/calculate-filehash/v1.0/install.ps1",
+        "https://raw.githubusercontent.com/bibistroc/calculate-filehash/v1.0/install-context-menu.reg"
     ],
     "hash": [
         "d991af33e6ca7fb156ee110b95b4ec85360f96c8c8152d4ef071bbe0dfd71872",
