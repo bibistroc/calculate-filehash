@@ -6,8 +6,8 @@
         "https://raw.githubusercontent.com/bibistroc/hashing/v1.0/install-context-menu.reg"
     ],
     "hash": [
-        "416c6173e36db673bc65b83641c060ca5384aaf9203cec69a5ed1a40a31a07e5",
-        "846bf2d8bfe422e49fb25e486ebe2133e1a00c44cb878a3dd565098ea877aecc",
+        "d991af33e6ca7fb156ee110b95b4ec85360f96c8c8152d4ef071bbe0dfd71872",
+        "a4371f9863a549da6834fa40eec55095087d82ba2a88af9257780b1a454b1d2d",
         "824f0b669d63054a2893020decd86d852b6f079904e760b9bc1372dff00f6691"
     ],
     "post_install": [
